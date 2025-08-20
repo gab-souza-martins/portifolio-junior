@@ -1,3 +1,7 @@
 #offcanvasNavbar {
    max-width: 65%;
 }
+
+.card {
+   width: clamp(300px, 500px, 33%);
+}
