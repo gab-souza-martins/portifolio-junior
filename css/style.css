@@ -12,6 +12,7 @@ footer {
    width: clamp(320px, 1000px, 100vw) !important;
 }
 
+/* TODO: Mudar ou eliminar .projectContainer e #portfolioProjectDescription */
 .projectContainer {
    display: flex;
    flex-direction: column;
