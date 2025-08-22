@@ -56,3 +56,10 @@ footer {
 .carousel-control-next-icon {
    margin: 0.5rem auto;
 }
+
+.invalid-warning {
+   width: 100%;
+   margin-top: 0.25rem;
+   margin-bottom: 1rem;
+   font-size: 0.875em;
+}

@@ -385,6 +385,10 @@
                   placeholder="Assunto do email"
                /><label for="emailAssunto">Assunto</label>
             </div>
+            <span class="d-none invalid-warning text-danger" id="assuntoAviso"
+               >Assunto não pode estar vazio</span
+            >
+
             <div class="form-floating">
                <textarea
                   name="conteudo"
@@ -394,6 +398,9 @@
                ></textarea
                ><label for="emailConteudo">Conteúdo</label>
             </div>
+            <span class="d-none invalid-warning text-danger" id="conteudoAviso"
+               >Conteúdo não pode estar vazio</span
+            >
 
             <button class="btn btn-primary" id="emailSubmitBtn" type="submit">
                Enviar
