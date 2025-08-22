@@ -44,3 +44,7 @@ section {
    top: 50%;
    transform: translateY(-50%);
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   margin: 0.5rem auto;
+}
