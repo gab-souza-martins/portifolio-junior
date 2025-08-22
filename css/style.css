@@ -1,3 +1,4 @@
+/* *Header */
 nav {
    box-shadow: 0 0.125rem 0.25rem hsla(0, 0%, 100%, 0.1);
 }
@@ -6,30 +7,8 @@ nav {
    width: clamp(260px, 500px, 30%);
 }
 
-main {
-   margin: auto;
-   width: clamp(320px, 1000px, 100vw) !important;
-}
-
-/* TODO: Mudar ou eliminar .projectContainer e #portfolioProjectDescription */
-.projectContainer {
-   display: flex;
-   flex-direction: column;
-   justify-content: between;
-   gap: 1rem;
-   margin: 2rem auto;
-   padding: 1rem 0;
-}
-@media (min-width: 992px) {
-   .projectContainer {
-      flex-direction: row;
-      gap: 2rem;
-   }
-   #portfolioProjectDescription {
-      max-width: 60%;
-   }
-}
-
+/* * */
+/* *Main */
 .carousel-inner {
    border-radius: 0.375em;
    width: clamp(290px, 500px, 40vw);
@@ -56,6 +35,8 @@ main {
    margin: 0.5rem auto;
 }
 
+/* * */
+/* *Footer */
 #emailConteudo {
    min-height: 200px;
 }
