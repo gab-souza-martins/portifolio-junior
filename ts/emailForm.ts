@@ -26,12 +26,16 @@ function validarInputs() {
       emailAssunto.classList.add("focus-ring-danger");
 
       assuntoAviso.classList.remove("d-none");
+
+      inputsValidos = false;
    } else {
       emailAssunto.classList.remove("border-danger");
       emailAssunto.classList.remove("focus-ring");
       emailAssunto.classList.remove("focus-ring-danger");
 
       assuntoAviso.classList.add("d-none");
+
+      inputsValidos = false;
    }
 
    if (emailConteudo.value === "") {
