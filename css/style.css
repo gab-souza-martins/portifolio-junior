@@ -6,8 +6,7 @@ nav {
    width: clamp(260px, 500px, 30%);
 }
 
-main,
-footer {
+main {
    margin: auto;
    width: clamp(320px, 1000px, 100vw) !important;
 }
