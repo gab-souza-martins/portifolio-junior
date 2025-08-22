@@ -17,7 +17,6 @@ nav {
 .card {
    margin: auto;
    padding-bottom: 1.2rem;
-   width: clamp(290px, 500px, 40vw);
    min-height: 420px;
 }
 
