@@ -6,8 +6,10 @@ nav {
    width: clamp(260px, 500px, 30%);
 }
 
-section {
-   width: clamp(290px, 1000px, 80%) !important;
+main,
+footer {
+   margin: auto;
+   width: clamp(320px, 1000px, 100vw) !important;
 }
 
 .projectContainer {
@@ -16,7 +18,7 @@ section {
    justify-content: between;
    gap: 1rem;
    margin: 2rem auto;
-   padding: 1rem;
+   padding: 1rem 0;
 }
 @media (min-width: 992px) {
    .projectContainer {
