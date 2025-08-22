@@ -28,6 +28,11 @@ section {
    }
 }
 
+.carousel-inner {
+   border-radius: 0.375em;
+   width: clamp(290px, 500px, 40vw);
+}
+
 .card {
    margin: auto;
    padding-bottom: 1.2rem;
