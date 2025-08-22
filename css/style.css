@@ -57,6 +57,10 @@ footer {
    margin: 0.5rem auto;
 }
 
+#emailConteudo {
+   min-height: 200px;
+}
+
 .invalid-warning {
    width: 100%;
    margin-top: 0.25rem;
