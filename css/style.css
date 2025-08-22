@@ -6,10 +6,32 @@ nav {
    width: clamp(260px, 500px, 30%);
 }
 
+section {
+   width: clamp(290px, 1000px, 80%) !important;
+}
+
+.projectContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: between;
+   gap: 1rem;
+   margin: 2rem auto;
+   padding: 1rem;
+}
+@media (min-width: 992px) {
+   .projectContainer {
+      flex-direction: row;
+      gap: 2rem;
+   }
+   #portfolioProjectDescription {
+      max-width: 60%;
+   }
+}
+
 .card {
    margin: 1rem auto;
    padding-bottom: 1.2rem;
-   width: clamp(290px, 420px, 50%);
+   width: clamp(290px, 420px, 50vw);
    min-height: 420px;
 }
 

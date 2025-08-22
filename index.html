@@ -112,17 +112,17 @@
          <h2>Projetos</h2>
 
          <h4>Portifólio</h4>
-         <p>
-            Este é o meu portifólio, feito com TypeScript e Bootstrap. Ele
-            apresenta uma visão geral dos meus projetos e habilidades.
-         </p>
-         <!-- *Portifolio -->
-         <div class="d-flex justify-content-center align-items-center">
+         <div class="projectContainer flex-lg-row-reverse">
+            <p id="portfolioProjectDescription">
+               Este é o meu portifólio, feito com TypeScript e Bootstrap. Ele
+               apresenta uma visão geral dos meus projetos e habilidades.
+            </p>
+            <!-- *Portifolio -->
             <div class="card">
                <!-- <img
-                  src="img/ecommerce-desktop-screenshot.png"
-                  alt="Screenshot do projeto 'Página de produto de e-commerce'"
-               /> -->
+                     src="img/ecommerce-desktop-screenshot.png"
+                     alt="Screenshot do projeto 'Página de produto de e-commerce'"
+                  /> -->
                <p class="text-danger fw-bold">Adicionar screenshot</p>
                <div class="card-footer">
                   <a
@@ -136,166 +136,167 @@
          </div>
 
          <h4>Frontend Mentor</h4>
-         <p>
-            Estes projetos são soluções para desafios encontrados no site
-            <a
-               class="link-primary"
-               href="https://www.frontendmentor.io/home"
-               target="_blank"
-               >Frontend Mentor</a
-            >. Link para o meu
-            <a
-               class="link-primary"
-               href="https://www.frontendmentor.io/profile/gab-souza-martins"
-               target="_blank"
-               >perfil</a
-            >.
-         </p>
-         <div class="carousel slide" id="frontendMentorCarousel">
-            <div class="carousel-indicators d-sm-none">
+         <div class="projectContainer">
+            <p>
+               Estes projetos são soluções para desafios encontrados no site
+               <a
+                  class="link-primary"
+                  href="https://www.frontendmentor.io/home"
+                  target="_blank"
+                  >Frontend Mentor</a
+               >. Link para o meu
+               <a
+                  class="link-primary"
+                  href="https://www.frontendmentor.io/profile/gab-souza-martins"
+                  target="_blank"
+                  >perfil</a
+               >.
+            </p>
+            <div class="carousel slide" id="frontendMentorCarousel">
+               <div class="carousel-indicators d-sm-none">
+                  <button
+                     type="button"
+                     data-bs-target="#frontendMentorCarousel"
+                     data-bs-slide-to="0"
+                     class="active bg-dark"
+                     aria-current="true"
+                     aria-label="Slide 1"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#frontendMentorCarousel"
+                     data-bs-slide-to="1"
+                     class="bg-dark"
+                     aria-label="Slide 2"
+                  ></button>
+                  <button
+                     type="button"
+                     data-bs-target="#frontendMentorCarousel"
+                     data-bs-slide-to="2"
+                     class="bg-dark"
+                     aria-label="Slide 3"
+                  ></button>
+               </div>
+               <div class="carousel-inner mx-auto">
+                  <!-- *Ecommerce -->
+                  <div class="carousel-item active">
+                     <div class="card">
+                        <img
+                           src="img/ecommerce-desktop-screenshot.png"
+                           alt="Screenshot do projeto 'Página de produto de e-commerce'"
+                        />
+                        <div class="card-body">
+                           <h5 class="card-title">
+                              Página de produto de e-commerce
+                           </h5>
+                           <p class="card-text">
+                              Página de produto com uma galeria de imagens e um
+                              carrinho funcional. Feito com JavaScript puro e
+                              Bootstrap.
+                           </p>
+                        </div>
+                        <div class="card-footer">
+                           <a
+                              class="btn btn-primary"
+                              href="https://gab-souza-martins.github.io/ecommerce-product-page/"
+                              target="_blank"
+                              >Página</a
+                           >
+                           <a
+                              class="btn btn-outline-primary"
+                              href="https://github.com/gab-souza-martins/ecommerce-product-page"
+                              target="_blank"
+                              >Código-fonte</a
+                           >
+                        </div>
+                     </div>
+                  </div>
+                  <!-- *Calculadora -->
+                  <div class="carousel-item">
+                     <div class="card">
+                        <img
+                           src="img/calc-desktop-screenshot.png"
+                           alt="Screenshot do projeto 'Calculadora'"
+                        />
+                        <div class="card-body">
+                           <h5 class="card-title">Calculadora</h5>
+                           <p class="card-text">
+                              Calculadora simples que inclui um toggle para três
+                              temas. Feita com TypeScript.
+                           </p>
+                        </div>
+                        <div class="card-footer">
+                           <a
+                              class="btn btn-primary"
+                              href="https://gab-souza-martins.github.io/app-calculator/"
+                              target="_blank"
+                              >Página</a
+                           >
+                           <a
+                              class="btn btn-outline-primary"
+                              href="https://github.com/gab-souza-martins/app-calculator"
+                              target="_blank"
+                              >Código-fonte</a
+                           >
+                        </div>
+                     </div>
+                  </div>
+                  <!-- *Age calc -->
+                  <div class="carousel-item">
+                     <div class="card">
+                        <img
+                           src="img/ageCalc-desktop-screenshot.png"
+                           alt="Screenshot do projeto 'Calculadora de idade'"
+                        />
+                        <div class="card-body">
+                           <h5 class="card-title">Calculadora de idade</h5>
+                           <p class="card-text">
+                              Página que recebe uma data de nascimento e calcula
+                              a idade do usuário. Feita com JavaScript puro.
+                           </p>
+                        </div>
+                        <div class="card-footer">
+                           <a
+                              class="btn btn-primary"
+                              href="https://gab-souza-martins.github.io/age-calculator-app/"
+                              target="_blank"
+                              >Página</a
+                           >
+                           <a
+                              class="btn btn-outline-primary"
+                              href="https://github.com/gab-souza-martins/age-calculator-app"
+                              target="_blank"
+                              >Código-fonte</a
+                           >
+                        </div>
+                     </div>
+                  </div>
+               </div>
                <button
+                  class="carousel-control-prev d-none d-sm-block"
                   type="button"
                   data-bs-target="#frontendMentorCarousel"
-                  data-bs-slide-to="0"
-                  class="active bg-dark"
-                  aria-current="true"
-                  aria-label="Slide 1"
-               ></button>
+                  data-bs-slide="prev"
+               >
+                  <span
+                     class="carousel-control-prev-icon"
+                     aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
                <button
+                  class="carousel-control-next d-none d-sm-block"
                   type="button"
                   data-bs-target="#frontendMentorCarousel"
-                  data-bs-slide-to="1"
-                  class="bg-dark"
-                  aria-label="Slide 2"
-               ></button>
-               <button
-                  type="button"
-                  data-bs-target="#frontendMentorCarousel"
-                  data-bs-slide-to="2"
-                  class="bg-dark"
-                  aria-label="Slide 3"
-               ></button>
+                  data-bs-slide="next"
+               >
+                  <span
+                     class="carousel-control-next-icon"
+                     aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
             </div>
-
-            <div class="carousel-inner mx-auto">
-               <!-- *Ecommerce -->
-               <div class="carousel-item active">
-                  <div class="card">
-                     <img
-                        src="img/ecommerce-desktop-screenshot.png"
-                        alt="Screenshot do projeto 'Página de produto de e-commerce'"
-                     />
-                     <div class="card-body">
-                        <h5 class="card-title">
-                           Página de produto de e-commerce
-                        </h5>
-                        <p class="card-text">
-                           Página de produto com uma galeria de imagens e um
-                           carrinho funcional. Feito com JavaScript puro e
-                           Bootstrap.
-                        </p>
-                     </div>
-                     <div class="card-footer">
-                        <a
-                           class="btn btn-primary"
-                           href="https://gab-souza-martins.github.io/ecommerce-product-page/"
-                           target="_blank"
-                           >Página</a
-                        >
-                        <a
-                           class="btn btn-outline-primary"
-                           href="https://github.com/gab-souza-martins/ecommerce-product-page"
-                           target="_blank"
-                           >Código-fonte</a
-                        >
-                     </div>
-                  </div>
-               </div>
-               <!-- *Calculadora -->
-               <div class="carousel-item">
-                  <div class="card">
-                     <img
-                        src="img/calc-desktop-screenshot.png"
-                        alt="Screenshot do projeto 'Calculadora'"
-                     />
-                     <div class="card-body">
-                        <h5 class="card-title">Calculadora</h5>
-                        <p class="card-text">
-                           Calculadora simples que inclui um toggle para três
-                           temas. Feita com TypeScript.
-                        </p>
-                     </div>
-                     <div class="card-footer">
-                        <a
-                           class="btn btn-primary"
-                           href="https://gab-souza-martins.github.io/app-calculator/"
-                           target="_blank"
-                           >Página</a
-                        >
-                        <a
-                           class="btn btn-outline-primary"
-                           href="https://github.com/gab-souza-martins/app-calculator"
-                           target="_blank"
-                           >Código-fonte</a
-                        >
-                     </div>
-                  </div>
-               </div>
-               <!-- *Age calc -->
-               <div class="carousel-item">
-                  <div class="card">
-                     <img
-                        src="img/ageCalc-desktop-screenshot.png"
-                        alt="Screenshot do projeto 'Calculadora de idade'"
-                     />
-                     <div class="card-body">
-                        <h5 class="card-title">Calculadora de idade</h5>
-                        <p class="card-text">
-                           Página que recebe uma data de nascimento e calcula a
-                           idade do usuário. Feita com JavaScript puro.
-                        </p>
-                     </div>
-                     <div class="card-footer">
-                        <a
-                           class="btn btn-primary"
-                           href="https://gab-souza-martins.github.io/age-calculator-app/"
-                           target="_blank"
-                           >Página</a
-                        >
-                        <a
-                           class="btn btn-outline-primary"
-                           href="https://github.com/gab-souza-martins/age-calculator-app"
-                           target="_blank"
-                           >Código-fonte</a
-                        >
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <button
-               class="carousel-control-prev d-none d-sm-block"
-               type="button"
-               data-bs-target="#frontendMentorCarousel"
-               data-bs-slide="prev"
-            >
-               <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-               ></span>
-               <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-               class="carousel-control-next d-none d-sm-block"
-               type="button"
-               data-bs-target="#frontendMentorCarousel"
-               data-bs-slide="next"
-            >
-               <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-               ></span>
-               <span class="visually-hidden">Next</span>
-            </button>
          </div>
       </section>
 
