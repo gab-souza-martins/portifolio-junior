@@ -311,7 +311,7 @@
 
       <hr />
       <footer
-         class="container-fluid col-11 col-sm-9 col-lg-8 col-xl-6"
+         class="container-fluid col-11 col-sm-9 col-lg-8 col-xl-6 mb-5"
          id="contato"
       >
          <h2>Contato</h2>
@@ -397,10 +397,11 @@
                   /><label for="emailAssunto">Assunto</label>
                </div>
                <span
-                  class="d-none invalid-warning text-danger"
+                  class="d-none text-danger invalid-warning"
                   id="assuntoAviso"
-                  >Assunto não pode estar vazio</span
+                  ><small>Assunto não pode estar vazio</small></span
                >
+
                <div class="form-floating">
                   <textarea
                      name="conteudo"
@@ -411,9 +412,9 @@
                   ><label for="emailConteudo">Conteúdo</label>
                </div>
                <span
-                  class="d-none invalid-warning text-danger"
+                  class="d-none text-danger invalid-warning"
                   id="conteudoAviso"
-                  >Conteúdo não pode estar vazio</span
+                  ><small>Conteúdo não pode estar vazio</small></span
                >
                <button
                   class="btn btn-primary mx-auto col-8"
@@ -424,6 +425,13 @@
                </button>
             </form>
          </div>
+
+         <p class="col-12 text-center mt-5">
+            <small
+               >2025 &copy; Gabriel de Souza - Todos os direitos
+               reservados</small
+            >
+         </p>
       </footer>
 
       <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
