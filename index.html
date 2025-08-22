@@ -136,6 +136,7 @@
                   </div>
                </div>
             </div>
+
             <h4>Frontend Mentor</h4>
             <div class="projectContainer">
                <p>
@@ -154,6 +155,7 @@
                   >.
                </p>
                <div class="carousel slide" id="frontendMentorCarousel">
+                  <!-- TODO: Indicadores ficam apertados em telas muito pequenas -->
                   <div class="carousel-indicators d-sm-none">
                      <button
                         type="button"
@@ -361,14 +363,48 @@
                   d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"
                />
             </svg>
+            <span class="visually-hidden">Email</span>
             <a
                class="link-light link-offset-2"
                href="mailto:gabriellemener@gmail.com"
                target="_blank"
-               >Email</a
+               >gabriellemener@gmail.com</a
             >
          </p>
-         <!-- TODO: Criar form para enviar um email, incluindo email do remetente, assunto e conteúdo -->
+
+         <form class="d-flex flex-column gap-3 border rounded p-2">
+            <h5>Envie seu email aqui</h5>
+            <div class="form-floating">
+               <input
+                  type="email"
+                  name="remetente"
+                  class="form-control"
+                  id="emailRemetente"
+                  placeholder="nome@exemplo.com"
+               />
+               <label for="emailRemetente">Seu email</label>
+            </div>
+            <div class="form-floating">
+               <input
+                  type="text"
+                  name="assunto"
+                  id="emailAssunto"
+                  class="form-control"
+                  placeholder="Assunto do email"
+               /><label for="emailAssunto">Assunto</label>
+            </div>
+            <div class="form-floating">
+               <textarea
+                  name="conteudo"
+                  id="emailConteudo"
+                  class="form-control"
+                  placeholder="Conteúdo do email"
+               ></textarea
+               ><label for="emailConteudo">Conteúdo</label>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Enviar</button>
+         </form>
       </footer>
 
       <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
