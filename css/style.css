@@ -11,7 +11,6 @@ nav {
 /* *Main */
 .carousel-inner {
    border-radius: 0.375em;
-   width: clamp(290px, 500px, 40vw);
 }
 
 .card {
