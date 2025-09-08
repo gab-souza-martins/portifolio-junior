@@ -9,6 +9,10 @@ nav {
 
 /* * */
 /* *Main */
+#sobre {
+   margin-bottom: 50vh;
+}
+
 .carousel-indicators {
    bottom: -0.6rem;
 }
