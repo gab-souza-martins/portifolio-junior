@@ -48,3 +48,17 @@ nav {
    margin-top: 0;
    margin-bottom: 1rem;
 }
+
+/* * */
+/* *Fade scroll */
+.scroll-section {
+   height: 100vh;
+   transform: translateY(-30px);
+   opacity: 0;
+   transition: 1s;
+}
+
+.scroll-section.show-section {
+   transform: translateY(0px);
+   opacity: 1;
+}
