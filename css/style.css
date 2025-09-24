@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+.space-mono-bold {
+   font-family: "Space Mono", monospace;
+   font-weight: 700;
+   font-style: normal;
+}
+
 /* *Header */
 nav {
    box-shadow: 0 0.125rem 0.25rem hsla(0, 0%, 100%, 0.1);
@@ -11,6 +19,10 @@ nav {
 /* *Main */
 #sobre {
    margin-bottom: 50vh;
+}
+
+#sobre h1 {
+   font-size: 4.4rem;
 }
 
 .carousel-indicators {
