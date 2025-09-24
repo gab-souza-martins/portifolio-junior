@@ -66,3 +66,7 @@ nav {
    transform: translateY(0px);
    opacity: 1;
 }
+
+footer {
+   height: 60vh !important;
+}
