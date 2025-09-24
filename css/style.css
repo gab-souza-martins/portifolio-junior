@@ -21,9 +21,10 @@ nav {
 
 /* * */
 /* *Main */
+
 #sobre {
-   height: 60vh;
-   margin-bottom: 50vh;
+   padding-bottom: 20rem;
+   margin-bottom: 10rem;
 }
 
 #sobre h1 {

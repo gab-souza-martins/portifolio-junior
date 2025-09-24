@@ -25,7 +25,17 @@
       />
       <link rel="stylesheet" href="css/style.css" />
    </head>
-   <body class="bg-dark text-light">
+   <body
+      class="bg-dark text-light"
+      style="
+         background-image: linear-gradient(
+            135deg,
+            #0f202733,
+            #203a4333,
+            #2c536433
+         );
+      "
+   >
       <header class="fixed-top bg-dark">
          <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid">
@@ -56,6 +66,8 @@
                   class="offcanvas offcanvas-start offcanvas-size-sm bg-dark text-white"
                   id="offcanvasNavbar"
                   tabindex="-1"
+                  role="navigation"
+                  aria-label="navegação"
                   aria-labelledby="offcanvasLabel"
                >
                   <div class="offcanvas-header">
@@ -105,9 +117,9 @@
       </header>
 
       <br />
-      <main class="container-fluid col-sm-11 col-md-10 col-lg-9">
+      <main class="container-fluid">
          <section
-            class="container-fluid mt-5 d-flex flex-wrap gap-5 align-items-lg-center justify-content-lg-between"
+            class="container-fluid mt-5 col-12 d-flex flex-wrap gap-5 align-items-lg-center justify-content-lg-between min-vh-100"
             id="sobre"
          >
             <div
@@ -121,7 +133,10 @@
             <div
                class="col-12 col-lg-5 d-flex flex-column align-items-start gap-3"
             >
-               <p class="space-mono-bold fs-2">Transformando ideias em valor</p>
+               <p class="space-mono-bold fs-2">
+                  Tornando ideias em
+                  <span class="text-primary">valor</span>
+               </p>
                <p>
                   Desenvolvedor em formação atento a detalhes e focado em
                   solucionar problemas. Procuro minha primeira oportunidade
@@ -131,7 +146,10 @@
             </div>
          </section>
 
-         <section class="container-fluid" id="projetos">
+         <section
+            class="container-fluid col-sm-11 col-md-10 col-lg-9"
+            id="projetos"
+         >
             <div class="scroll-section">
                <h2>Projetos</h2>
                <h4>Portifólio</h4>
