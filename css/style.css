@@ -24,12 +24,14 @@ nav {
 
 #sobre {
    padding-bottom: 20rem;
-   margin-top: 10rem;
-   margin-bottom: 5rem;
+   padding-top: 10rem;
 }
-
 #sobre h1 {
    font-size: 4.25rem;
+}
+
+#projetos {
+   padding-top: 5rem;
 }
 
 .carousel-indicators {
